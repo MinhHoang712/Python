@@ -1,5 +1,10 @@
-def count_txt(txt):
-    return len(str(txt))
-if __name__ == "__main__": 
-    txt = str(input("Nhập ký tự ktra: "))
-    print(count_txt(txt))
+def count_char(string):
+    dict_string = {}
+    for item in string:
+       dict_string[item] = dict_string.get(item,0)+1
+    for f in dict_string.items():
+        print(f)
+count_char('danghoangminhdhxd')
+st = 'danghoangminhdhxd'
+print(len(st))
+        
