@@ -1,6 +1,4 @@
 from pyrsistent import b
-
-
 product_db  = {
             1: 'SMART WATCH',
             2: 'PHONE' ,
